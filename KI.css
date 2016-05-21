@@ -1,0 +1,2 @@
+.KI-HoverBody { display: none;}
+.KI-HoverWrap:hover .KI-HoverBody {display: block;}
