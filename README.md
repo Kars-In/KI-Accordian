@@ -1,2 +1,5 @@
-# KI-Web
-A repository for web plugins customized and built by me
+# KI-Accordian
+
+KI-accordian is  a js/css framework that creates a accordian like structure.
+
+KI-accordian is designed to work on angular.js 
