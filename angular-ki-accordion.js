@@ -1,3 +1,4 @@
+
 angular.module("kiAccordion", [])
     .directive("kiAccordion", function () {
         return {
@@ -6,7 +7,7 @@ angular.module("kiAccordion", [])
             replace: true,
             scope: {},
             template:
-                "<div class='KI-Accordian' ng-transclude></div>",
+                "<div class='KI-Accordion' ng-transclude></div>",
             
             controller: function () { }
         };
@@ -23,7 +24,7 @@ angular.module("kiAccordion", [])
             scope: {},
             template:
                 "<div class='KI-HoverWrap' >" +
-                "  <div class='KI-accHead' ng-transclude='head'></div>" +
+                "  <div class='KI-HoverHead' ng-transclude='head'></div>" +
                 "  <div class='KI-HoverBody' ng-transclude='body'></div>" +
                 "</div>",            
         };
